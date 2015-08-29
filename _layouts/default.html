@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+
+  {% include google-analytics.html %}
+
+  {% include head.html %}
+
+  <body>
+
+    {% include navigation.html %}
+
+    <div class="wrap">
+      <div class="container">
+        {{ content }}
+      </div>
+    </div>
+
+    <footer id="footer" class="page-footer">
+      {% include footer.html %}
+    </footer>
+
+  </body>
+
+</html>

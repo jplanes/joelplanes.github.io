@@ -1,0 +1,27 @@
+
+.post {
+  margin-bottom: 40px;
+
+  .post-header {
+    .post-title {
+      font-size: 35px;
+      letter-spacing: -1px;
+      text-transform: capitalize;
+      margin-bottom: 5px;
+    }
+
+    .post-meta {
+      color: #BDC3C7;
+      margin-bottom: 20px;
+    }
+  }
+
+  .post-content {
+    font-size: 1.2em;
+  }
+
+  .highlight {
+    margin-top: 25px;
+    margin-bottom: 35px;
+  }
+}

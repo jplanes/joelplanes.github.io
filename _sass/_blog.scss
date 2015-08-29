@@ -1,0 +1,28 @@
+
+#posts {
+	padding-top: 20px;
+
+	hr {
+		margin-top: 30px;
+		margin-bottom: 30px;
+	}
+
+	header {
+		margin-bottom: 10px;
+		> a {
+			font-size: 1.5em;
+			margin-bottom: 10px;
+			letter-spacing: 2px;
+			font-weight: 700;
+		}
+
+		.labels {
+			margin-top: 10px;
+			margin-bottom: 15px;
+		}
+	}
+
+	footer {
+		margin-top: 20px;
+	}
+}

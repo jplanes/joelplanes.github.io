@@ -1,0 +1,112 @@
+---
+layout: default
+---
+
+<div id="profile">
+  <div class="row">
+    <div class="col-xs-12">
+      <div id="profile-header" class="text-center">
+        <img src="images/profile-photo.jpg" class="img-circle" alt="avatar">
+        <h1>
+          <span class="title">who am I?</span>
+          <span class="description">my name is <bold>Joel Planes</bold> and I am a software engineer</span>
+        </h1>
+      </div>
+    </div>
+  </div>
+
+  <div id="profile-content" class="row">
+    <div class="col-md-6">
+      <section>
+        <h4>about me</h4>
+        <p>
+          I'm a tech passionate geek and very enthusiastic developer, mainly focused on scalability and high availability using multithreading programming.
+          <br><br>
+          I enjoy to experiment with new techs and the way how they can be deployed in production environments.
+        </p>
+      </section>
+
+      <section>
+        <h4>experiences</h4>
+
+        {% for job in site.data.resume.jobs %}
+        <div class="row job">
+          <div class="col-xs-3">
+            <div class="company">{{job.company}}</div>
+            <small class="text-muted">{{job.year}}</small>
+          </div>
+          <div class="col-xs-9">
+            <div class="profession">{{job.profession}}</div>
+            <p class="description">{{job.description}}</p>
+          </div>
+        </div>
+        {% endfor %}
+      </section>
+
+    </div>
+
+
+    <div class="col-md-6">
+      <section>
+        <h4>contact</h4>
+        <p>
+          <ul class="contact-list">
+            <li>
+              <i class="fa fa-linkedin fa-lg"></i>
+              <p>https://ar.linkedin.com/in/jplanes </p>
+              <a href="https://ar.linkedin.com/in/jplanes" target="_blank"><i class="fa fa-external-link fa-lg"></i></a>
+            </li>
+            <li>
+              <i class="fa fa-github fa-lg"></i>
+              <p>https://github.com/jplanes</p>
+              <a href="https://github.com/jplanes" target="_blank"><i class="fa fa-external-link fa-lg"></i></a>
+            </li>
+            <li>
+              <i class="fa fa-envelope fa-lg"></i>
+              <p>jplanes00@gmail.com</p>
+            </li>
+          </ul>
+        </p>
+      </section>
+
+      <section class="skills">
+        <h4>skills</h4>
+        <p>
+          {% for skill in site.data.resume.skills.technical %}
+          <div class="progress">
+            <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: {{skill.percentage}}%;">
+              {{skill.name}}
+            </div>
+          </div>
+          {% endfor %}
+          <div class="skills-legend clearfix">
+            <div class="legend-left legend">Beginner</div>
+            <div class="legend-left legend"><span>Proficient</span></div>
+            <div class="legend-right legend"><span>Expert</span></div>
+            <div class="legend-right legend">Master</div>
+          </div>
+        </p>
+      </section>
+
+      <section class="skills">
+        <h4>languages</h4>
+        <p>
+          {% for language in site.data.resume.skills.languages %}
+          <div class="progress">
+            <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: {{language.percentage}}%;">
+              {{language.name}}
+            </div>
+          </div>
+          {% endfor %}
+          <div class="skills-legend clearfix">
+            <div class="legend-left legend">Basic</div>
+            <div class="legend-left legend"><span>Intermediate</span></div>
+            <div class="legend-right legend"><span>Advanced</span></div>
+            <div class="legend-right legend">Native</div>
+          </div>
+        </p>
+      </section>
+    </div>
+  </div>
+
+</div>

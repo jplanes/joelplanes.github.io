@@ -1,0 +1,94 @@
+{
+	"technical": [
+		{
+			"name": "oop",
+			"percentage": 100
+		},
+		{
+			"name": "Rest APIs",
+			"percentage": 100
+		},
+		{
+			"name": "java",
+			"percentage": 100
+		},
+		{
+			"name": "Spring Framework",
+			"percentage": 100
+		},
+		{
+			"name": "Hibernate",
+			"percentage": 100
+		},
+		{
+			"name": "Junit / Mockito",
+			"percentage": 100
+		},
+		{
+			"name": "Groovy",
+			"percentage": 40
+		},
+		{
+			"name": "Node.js",
+			"percentage": 75
+		},
+		{
+			"name": "Rails",
+			"percentage": 40
+		},
+		{
+			"name": "Html",
+			"percentage": 60
+		},
+		{
+			"name": "CSS",
+			"percentage": 50
+		},
+		{
+			"name": "Sass",
+			"percentage": 45
+		},
+		{
+			"name": "Bootstrap",
+			"percentage": 80
+		},
+		{
+			"name": "AngularJS",
+			"percentage": 80
+		},
+		{
+			"name": "JQuery",
+			"percentage": 50
+		},
+		{
+			"name": "Grunt",
+			"percentage": 40
+		},
+		{
+			"name": "Bower",
+			"percentage": 40
+		},
+		{
+			"name": "MongoDB / no-SQL",
+			"percentage": 80
+		},
+		{
+			"name": "MySql / pl-SQL",
+			"percentage": 70
+		},
+		{
+			"name": "Cassandra",
+			"percentage": 40
+		}
+	],
+	"languages": [
+		{
+			"name": "spanish",
+			"percentage": 100
+		},
+		{
+			"name": "english",
+			"percentage": 75
+		}
+	]
+}

@@ -1,0 +1,29 @@
+---
+layout: default
+permalink: /blog/
+---
+
+<div id="posts">
+	{% for post in site.posts %}
+	<div class="row post">
+		<div class="col-md-12">
+			<header>
+				<a href="{{ post.url }}"> {{ post.title }} </a>
+				<small><i class="fa fa-calendar"> </i> {{ post.date | date: "%b %-d, %Y" }}</small>
+				<div class="labels">
+					{% for category in post.categories %}
+						<span class="label label-normal"><i class="fa fa-tag"></i> {{ category }}</span>
+					{% endfor %}
+				</div>
+			</header>
+			
+			{{ post.excerpt }}
+
+			<footer>
+				<a href="{{ post.url }}"> read more</a>
+			</footer>
+		</div>
+	</div>
+	<hr>
+	{% endfor %}
+</div>

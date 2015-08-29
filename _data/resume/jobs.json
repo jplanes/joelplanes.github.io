@@ -1,0 +1,46 @@
+[
+	{
+		"company": "freelancer",
+		"year": "2014 - now",
+		"profession": "Software Engineer & Fullstack Developer",
+		"description": "" 
+	},
+	{
+		"company": "almundo.com",
+		"year": "2015 - now",
+		"profession": "Tech Lead - Hotels v2.0",
+		"description": "I'm leading a backend team who has to develop the new hotel platform.
+I'm in charge of the integration with different suppliers like Expedia, Juniper and Booking.com. I'm also in charge of both the designed API and the whole backend solution." 
+	},
+	{
+		"company": "despegar.com",
+		"year": "2012 - 2015",
+		"profession": "Tech Lead - Cars",
+		"description": "I was in charge of a small back-end team. I was responsible of the integrations with different OTA compliant providers, mainly focused on multithreading programming, high availability and scalability.
+Using techs like MongoDB, Java8, AngularJS, SpringMVC, RestFull services, etc." 
+	},
+	{
+		"company": "dreamIT",
+		"year": "2011 - 2012",
+		"profession": "Java Developer",
+		"description": "I was in charge of the design and development of different automative industry systems using a simple stack based on Flex, Spring, Hibernate, etc." 
+	},
+	{
+		"company": "capgemini",
+		"year": "2010 - 2011",
+		"profession": "Java developer",
+		"description": "I was part of a development team working on automative industry systems and using a simple stack based on Struts, Spring, Hibernate, etc." 
+	},
+	{
+		"company": "t-systems",
+		"year": "2008 - 2010",
+		"profession": "Java Developer / Volkswagen Argentina",
+		"description": "I was part of a development team working on automative industry systems and using a simple stack based on Struts, Spring, Hibernate, etc." 
+	},
+	{
+		"company": "lumina americas",
+		"year": "2006 - 2008",
+		"profession": "Java Developer",
+		"description": "I worked as a java developer for different financial projects, I was mainly focused on front-end technologies like Swing and Struts." 
+	}
+]
