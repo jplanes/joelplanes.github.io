@@ -9,6 +9,10 @@
 			"percentage": 100
 		},
 		{
+			"name": "Docker",
+			"percentage": 70
+		},
+		{
 			"name": "java",
 			"percentage": 100
 		},
